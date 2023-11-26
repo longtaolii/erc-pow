@@ -1,0 +1,28 @@
+{
+  "wallets": [
+    {
+      "address": "",
+     "private": ""
+    }
+  ],
+  "network": {
+    "rpcURL": "https://ethereum.publicnode.com"
+  },
+  "tokens": [
+    {
+      "tick": "ierc-m4",
+      "amt": "1000",
+      "workc": "0x0000"
+    },
+    {
+      "tick": "btc-m4",
+      "amt":"1000",
+      "workc": "0x0000"
+    },
+    {
+      "tick": "btc-m5",
+      "amt":"1000",
+      "workc": "0x00000"
+    }
+  ]
+}
