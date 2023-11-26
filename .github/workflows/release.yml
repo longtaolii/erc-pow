@@ -86,5 +86,5 @@ jobs:
         with:
           files: ercpow/*
           fail_on_unmatched_files: true
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
           append_body: true
