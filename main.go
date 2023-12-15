@@ -156,7 +156,7 @@ func pow(wallet Wallet, token Token, network Network, thread int, gas int, test 
 					return
 				}
 				mu.Unlock()
-				randomDigits := generateRandomDigits(5)
+				randomDigits := generateRandomDigits(8)
 				currentTime := time.Now().Unix()
 				timer := fmt.Sprintf("%d%s", currentTime, randomDigits)
 				dataString := fmt.Sprintf(`data:application/json,{"p":"ierc-20","op":"mint","tick":"%s","amt":"%s","nonce":"%s"}`, token.Tick, token.Amt, timer)
